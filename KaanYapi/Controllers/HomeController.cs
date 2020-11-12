@@ -17,7 +17,7 @@ namespace KaanYapi.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IBlogRepository _blog;
 
-        public HomeController(ILogger<HomeController> logger, IBlogRepository blog)
+        public HomeController(ILogger<HomeController> logger, IBlogRepository blog) 
         {
             _logger = logger;
             _blog = blog;
